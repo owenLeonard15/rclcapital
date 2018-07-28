@@ -66,7 +66,7 @@ class App extends Component {
         </div>
         <div>
           <h4 id="faq">FAQ's</h4>
-          <Accordian/>
+          <Accordian />
         </div>
         <h6 id="contact" className="bg-dark">Contact</h6>
         <div className="row align-items-center text-center container-fluid">

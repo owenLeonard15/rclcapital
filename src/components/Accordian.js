@@ -3,13 +3,12 @@ import './Accordian.css';
 
 const Accordian = () => {
     return (
-
         <div id="accordion">
             <div className="card">
                 <div className="card-header bg-light" id="headingOne">
-                    <h5 className="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                    <button className="mb-0" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         How long has RCL Capital Management existed?
-                    </h5>
+                    </button>
                 </div>
 
                 <div id="collapseOne" className="collapse" aria-labelledby="headingOne" data-parent="#accordion">
@@ -20,9 +19,9 @@ const Accordian = () => {
             </div>
             <div className="card">
                 <div className="card-header bg-light" id="headingTwo">
-                    <h5 className="mb-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <button className="mb-0" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         How many clients does RCL Capital Management currently serve?
-                    </h5>
+                    </button>
                 </div>
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
                     <div className="card-body">
@@ -31,9 +30,9 @@ const Accordian = () => {
             </div>
             <div className="card">
                 <div className="card-header bg-light" id="headingThree">
-                    <h5 className="mb-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    <button className="mb-0" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         Is a client required to be a Pennsylvania resident?
-                    </h5>
+                    </button>
                 </div>
                 <div id="collapseThree" className="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                     <div className="card-body">
@@ -42,9 +41,9 @@ const Accordian = () => {
             </div>
             <div className="card">
                 <div className="card-header bg-light" id="headingFour">
-                    <h5 className="mb-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <button className="mb-0" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         Does RCL Capital Management specialize in a particular practice area?
-                    </h5>
+                    </button>
                 </div>
                 <div id="collapseFour" className="collapse" aria-labelledby="headingFour" data-parent="#accordion">
                     <div className="card-body">
@@ -53,9 +52,9 @@ const Accordian = () => {
             </div>
             <div className="card">
                 <div className="card-header bg-light" id="headingFive">
-                    <h5 className="mb-0" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <button className="mb-0" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                         How does RCL Capital Management get paid?
-                    </h5>
+                    </button>
                 </div>
                 <div id="collapseFive" className="collapse" aria-labelledby="headingFive" data-parent="#accordion">
                     <div className="card-body">
@@ -64,10 +63,10 @@ const Accordian = () => {
             </div>
             <div className="card">
                 <div className="card-header bg-light" id="headingSix">
-                    <h5 className="mb-0" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <button className="mb-0" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
 
                         Is there a fee for an initial consultation?
-                    </h5>
+                    </button>
                 </div>
                 <div id="collapseSix" className="collapse" aria-labelledby="headingSix" data-parent="#accordion">
                     <div className="card-body">
@@ -75,11 +74,11 @@ const Accordian = () => {
                 </div>
                 <div className="card">
                     <div className="card-header bg-light" id="headingSeven">
-                        <h5 className="mb-0" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                        <button className="mb-0" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
 
                             Will a client ever be relegated to working with another advisor within RCL Capital Management?
 
-                        </h5>
+                        </button>
                     </div>
                     <div id="collapseSeven" className="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
                         <div className="card-body">
@@ -88,11 +87,11 @@ const Accordian = () => {
                 </div>
                 <div className="card">
                     <div className="card-header bg-light" id="headingEight">
-                        <h5 className="mb-0" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                        <button className="mb-0" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
 
                             Does RCL Capital Management sell insurance?
 
-                        </h5>
+                        </button>
                     </div>
                     <div id="collapseEight" className="collapse" aria-labelledby="headingEight" data-parent="#accordion">
                         <div className="card-body">
@@ -103,10 +102,9 @@ const Accordian = () => {
 
                 <div className="card">
                     <div className="card-header bg-light" id="headingNine">
-                        <h5 className="mb-0" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-
+                        <button className="mb-0" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                             Will RCL Capital Management prepare my income tax return?
-                        </h5>
+                        </button>
                     </div>
                     <div id="collapseNine" className="collapse" aria-labelledby="headingNine" data-parent="#accordion">
                         <div className="card-body">
@@ -119,10 +117,10 @@ const Accordian = () => {
 
                 <div className="card">
                     <div className="card-header bg-light" id="headingTen">
-                        <h5 className="mb-0" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                        <button className="mb-0" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
 
                             What makes RCL Capital Management unique?
-                        </h5>
+                        </button>
                     </div>
                     <div id="collapseTen" className="collapse" aria-labelledby="headingTen" data-parent="#accordion">
                         <div className="card-body">

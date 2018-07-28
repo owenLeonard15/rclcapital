@@ -1,0 +1,31 @@
+.row{
+    color: black;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.bg-light.row{
+    border-radius: 0 0 .5em .5em;
+    margin-bottom: 2em;
+    padding: 1em 2em 1em 2em;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+  }
+  
+  .top.row{
+    border-radius: .5em .5em 0 0;
+    background-color: black;
+    margin-top: 2em;
+    color: white;
+    padding: 1em 0 .5em 0;
+  }
+  
+  
+  p{
+    text-align: left;
+    line-height: 2em;
+    padding-top: 1em;
+  }
+
+  

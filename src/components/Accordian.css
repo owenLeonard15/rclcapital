@@ -1,0 +1,12 @@
+#accordion{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.card-header{
+   color: rgba(0,0,0, .5);
+}
+.card-header:hover{
+    color: rgba(0,0,0, 1);
+    cursor: pointer;
+}

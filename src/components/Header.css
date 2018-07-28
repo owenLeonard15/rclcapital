@@ -1,0 +1,14 @@
+
+.container-fluid.header{
+    background-image: url(../images/stockHandshake.jpg);
+    background-color:black;
+    background-size: cover;
+    min-height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: sticky;
+}
+
+Card{
+    width: 18em;
+}

@@ -1,0 +1,11 @@
+h2{
+    color: white;
+}
+
+.nav-link:hover{
+    cursor: pointer;
+}
+
+.activeLink{
+    color: red;
+}

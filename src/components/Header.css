@@ -12,3 +12,10 @@
 Card{
     width: 18em;
 }
+
+@media only screen and (max-width: 450px) {
+    .container-fluid.header{
+        background-position: 20%;
+        min-height: 40vh;
+    } 
+}

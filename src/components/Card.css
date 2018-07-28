@@ -10,3 +10,10 @@
 .card-title{
     font-weight: bolder;
 }
+
+@media only screen and (max-width: 450px) {
+    .cards{
+        max-width: 80vw;
+        margin: 2em;
+    }
+}

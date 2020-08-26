@@ -23,7 +23,7 @@ const CardList = () => {
     const cardsRight = [
         {
             title: "The Founder",
-            text: ["RCL Capital Management was founded by Ronald C. Leonard, to help individuals realize the benefits of highly-personalized and qualified financial guidance. Prior to RCL Capital Management, Mr. Leonard served with both Grossman, Yanak and Ford LLP and KPMG as an accountant in their Pittsburgh offices. Mr. Leonard is a registered investment advisor and CPA, and holds a B.S. in Accounting from Penn State."
+            text: ["RCL Capital Management was founded by Ronald C. Leonard, to help individuals realize the benefits of highly-personalized and qualified financial guidance. Prior to RCL Capital Management, Mr. Leonard served with both Grossman, Yanak and Ford LLP and KPMG as an accountant in their Pittsburgh offices. Mr. Leonard is a registered investment advisor and holds a B.S. in Accounting from Penn State."
             ]
         },
         {

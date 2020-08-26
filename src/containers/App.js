@@ -69,10 +69,10 @@ class App extends Component {
           <Accordian />
         </div>
         <h6 id="contact" className="bg-dark">Contact</h6>
-        <div className="row align-items-center text-center container-fluid">
-          <div className="col-lg-6">
+        <div style={{marginTop: '50px', marginBottom: '50px'}} className="row align-items-center text-center container-fluid">
+          {/* <div className="col-lg-6">
             <ContactForm />
-          </div>
+          </div> */}
           <div className="col-lg-5">
             <div className="container-fluid p-3 rounded-top" id="contact-us">
             <h6 id="contactHeader" className="text-white m-0">Reach us directly at</h6>

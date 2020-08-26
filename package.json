@@ -2,7 +2,7 @@
   "name": "rcl",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://owenLeonard15.github.io/rclcapital",
+  "homepage": "http://rclcapital.com",
   "dependencies": {
     "ajv": "^6.5.1",
     "bootstrap": "^4.1.1",
